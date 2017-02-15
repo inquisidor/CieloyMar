@@ -7,9 +7,9 @@
 #contenedor
   {
     margin: auto;
-    width: 1200px;
+    width: 80%;
     height: 800px;
-  /*background-color: black;
+    /*background-color: black;
     color: blue;*/
   }
 
@@ -17,13 +17,12 @@ main
   {
     margin: auto;
     text-align: center;
-  /*  background-color: blue;
+    /*background-color: blue;
     color: white;*/
   }
 
 header nav
   {
-
     text-align: center;
   /*background-color: #FF6309;
     color: blue;*/
@@ -34,6 +33,12 @@ header nav ul li
     display: inline-block;
     padding: 0.2px;
   }
+
+#logo
+    {
+      position:absolute; left:380px; top:190px; width:center; height:70px;
+    }
+
 /*
 img.logo
   {
@@ -277,8 +282,8 @@ footer
     bottom: 0 !important;
     bottom: -1px;
     clear: both;
-    width: 1180px;
-    height: 125px;
+    width: 80%;
+    height: auto;
     /*background-color: #bb771d;*/
     color: white;
     text-align: center;
