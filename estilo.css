@@ -9,6 +9,7 @@
     margin: auto;
     width: 80%;
     height: 800px;
+    text-align: center;
     /*background-color: black;
     color: blue;*/
   }
@@ -24,7 +25,7 @@ main
 header nav
   {
     text-align: center;
-  /*background-color: #FF6309;
+    /*background-color: #FF6309;
     color: blue;*/
   }
 
@@ -205,20 +206,11 @@ p
     letter-spacing: 0;
     text-shadow: -3px -3px 3px #000, 3px -3px 3px #000, -3px 3px 3px #000, 3px 3px 3px #000;
  }
-/*
+
 section
   {
-    border: 5px solid black;
-    margin-top: -555px;
-    margin-bottom: 6px;
-    margin-left: 5px;
-    margin-right: 150px;
-    float: left;
-    width: 1180px;
-    height: 450px;
-  /*  background-color: green;
-    color: white;*/
-/*  }*/
+
+  }
 /*
 aside
   {
@@ -243,6 +235,7 @@ body
     background-position: center center;
     background-size: cover;
     background-image: url(cayos.jpg);
+    /*background: orange;*/
     /*background-position : center; CENTRAR IMAGEN DE FONDO, NO RECOMENDADO*/     /*background: url('playa.png');
     /*se puede borrar los comentarios de ----> era para la imagen               background-repeat : no-repeat;
     background-attachment : fixed;*/
@@ -276,19 +269,58 @@ marquee
 footer
   {
     /*border: 5px solid black;*/
-    margin-left: 6px;
-    margin-right: 6px;
-    position: absolute;
-    bottom: 0 !important;
-    bottom: -1px;
     clear: both;
-    width: 80%;
+    width: 100%;
     height: auto;
     /*background-color: #bb771d;*/
     color: white;
     text-align: center;
   /*  opacity: 0.6;*/
   }
+
+.left
+  {
+    float: left;
+    width: 33%;
+    background: red;
+  }
+
+.right
+  {
+    float: right;
+    width: 33%;
+    background: blue;
+  }
+  
+.center
+  {
+    width: 33%;
+    background: orange;
+    display:inline-block;
+  }
+
+@media screen and (max-width: 550px)
+    {
+      .left
+        {
+          width: 100%;
+          background: red;
+        }
+
+      .right
+        {
+          width: 100%;
+          background: blue;
+        }
+
+      .center
+        {
+          width: 100%;
+          background: orange;
+          display:inline-block;
+        }
+    }
+
 @media screen and (max-width: 800px)
     {
       #logo img.grande
