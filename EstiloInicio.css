@@ -215,23 +215,28 @@ marquee
   {
     font-weight:bold;
   }
-/*inicio galeria*/
 
-.galeria__item img
+.left
   {
-    display: block;
-    max-width: 100%;
+   float: left;
+   width: 33%;
+   background: red;
   }
 
-.galeria
+.right
   {
-    list-style: none;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   float: right;
+   width: 33%;
+   background: blue;
   }
-/*fin galeria*/
+
+.center
+  {
+    width: 33%;
+    background: orange;
+    display:inline-block;
+  }
+
 footer
   {
     /*border: 5px solid black;*/
